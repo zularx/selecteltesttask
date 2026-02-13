@@ -49,9 +49,22 @@ h1 {
     margin-bottom: 5rem;
 }
 
+p {
+    font-family: "Nunito Regular";
+    color: var(--White);
+    margin: 0;
+}
+
 a {
     font-family: "Nunito Regular";
 }
+
+label {
+    font-family: "Nunito Regular";
+    color: var(--White);
+    font-weight: 600;
+}
+
 
 .HrefBtn {
     display: block;
@@ -80,6 +93,30 @@ a {
     border-color: var(--Accent-one);
     background-color: var(--Accent-one);
     color: var(--White);
+    transition: .3s;
+}
+.actBtn{
+    background-color: var(--Accent-two);
+    width: 20rem;
+    height: 4rem;
+    border-style: solid;
+    border-color: var(--Accent-two);
+    border-radius: 1rem;
+    color: var(--White);
+    font-size: 2rem;
+    font-family: "Nunito Regular";
+    font-weight: 600;
+}
+.actBtn:hover{
+    color: var(--Accent-two);
+    background-color: var(--Dark-gray);
+    cursor: pointer;
+    transition: .3s;
+}
+.actBtn:active{
+    color: var(--White);
+    background-color: var(--Accent-one);
+    border-color: var(--Accent-one);
     transition: .3s;
 }
 

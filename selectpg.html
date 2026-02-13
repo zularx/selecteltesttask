@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/normalize.css">
+    <link rel="stylesheet" href="static/mainPg.css">
+    <title>Основная страница</title>
 </head>
 <body>
-    
+    <header>
+        <ul class="burgerMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </ul>
+        <div>
+            <p>Раздел: <span>Тип 1</span></p>
+            <div>
+                <p>Выбранно пунктов: 0</p>
+                <p>Общее значение: 0</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><Button class="actBtn">Тип 1</Button></li>
+                <li><Button class="actBtn">Тип 2</Button></li>
+            </ul>
+        </nav>
+        <form action="">
+            <div>
+                <label for="PlTwen">Прибавить 20</label>
+                <input type="checkbox" id="PlTwen">
+            </div>
+            <div>
+                <label for="PlThr">Прибавить 30</label>
+                <input type="checkbox" id="PlThr">
+            </div>
+            <div>
+                <label for="PlFor">Прибавить 40</label>
+                <input type="checkbox" id="PlFor">
+            </div>
+            <div>
+                <label for="PlFif">Прибавить 50</label>
+                <input type="checkbox" id="PlFif">
+            </div>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
