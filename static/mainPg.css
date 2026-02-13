@@ -143,7 +143,7 @@ form>div>input{
         gap: 1rem;
         z-index: 3;
         background-color: rgba(0, 0, 0, 0);
-        border-style: noneq;
+        border-style: none;
     }
     .burgerMenu>span{
         width: 100%;
@@ -165,3 +165,5 @@ form>div>input{
     }
 
 }
+
+
