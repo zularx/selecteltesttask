@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Nunito Medium";
+    src: url("/static/fonts/Nunito-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Nunito Regular";
+    src: url("/static/fonts/Nunito-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand Bold";
+    src: url("/static/fonts/Quicksand-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand Medium";
+    src: url("/static/fonts/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand Regular";
+    src: url("/static/fonts/Quicksand-Regular.ttf");
+}
+
+
+:root {
+    font-size: 62.5%;
+    --BgColor: #0D0D0D;
+    --Black: #040326;
+    --Dark-gray: #1f1f1f;
+    --White: #FFFFFF;
+    --Accent-one: #F27C38;
+    --Accent-two: #9D8BFF;
+    --BtnText: #B5BDFF;
+}
+
+body {       
+    background-color: var(--BgColor);
+    height: 100vh;
+    min-width: 32rem;
+}
+
+h1 {
+    font-family: "Nunito Medium";
+    font-size: 2.8rem;
+    margin: 0;
+    color: var(--White);
+    margin-bottom: 5rem;
+}
+
+a {
+    font-family: "Nunito Regular";
+}
+
+.HrefBtn {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    background-color: var(--Accent-two);
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 2rem 3rem 2rem 3rem;
+    border-radius: 1rem;
+    border-width: 0.1rem;
+    border: solid;
+    border-color: var(--Accent-two);
+    color: var(--White);
+    font-weight: 600;
+}
+
+.HrefBtn:hover {
+    border-color: var(--Accent-two);
+    background-color: var(--Dark-gray);
+    transition: .3s;
+    color: var(--Accent-two);
+}
+
+.HrefBtn:active {
+    border-color: var(--Accent-one);
+    background-color: var(--Accent-one);
+    color: var(--White);
+    transition: .3s;
+}
+
+.MainHelloPgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    height: 40rem;
+    background-color: var(--Dark-gray);
+    border-radius: 0.5rem;
+    max-width: 42rem;
+    min-width: 29rem;
+}
+
+main {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+@media (min-width: 740px) {
+    h1 {
+        font-size: 4rem;
+    }
+    .MainHelloPgContainer {
+        width: 50rem;
+        height: 50rem;
+        max-width: 50rem;
+    }
+    .HrefBtn {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 6rem;
+    }
+    .MainHelloPgContainer {
+        width: 70rem;
+        height: 70rem;
+        max-width: 70rem;
+    }
+    .HrefBtn {
+        font-size: 3rem;
+    }
+}
