@@ -1,26 +1,26 @@
 @font-face {
     font-family: "Nunito Medium";
-    src: url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
+    src: url("/selecteltesttask/static/fonts/Nunito-Medium.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Nunito Regular";
-    src: url("/selecteltesttask/static/fonts/Nunito-Regular.ttf");
+    src: url("/selecteltesttask/static/fonts/Nunito-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Quicksand Bold";
-    src: url("/selecteltesttask/static/fonts/Quicksand-Bold.ttf");
+    src: url("/selecteltesttask/static/fonts/Quicksand-Bold.ttf") format("truetype"); 
 }
 
 @font-face {
     font-family: "Quicksand Medium";
-    src: url("/selecteltesttask/static/fonts/Quicksand-Medium.ttf");
+    src: url("/selecteltesttask/static/fonts/Quicksand-Medium.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Quicksand Regular";
-    src: url("/selecteltesttask/static/fonts/Quicksand-Regular.ttf");
+    src: url("/selecteltesttask/static/fonts/Quicksand-Regular.ttf") format("truetype");
 }
 
 
